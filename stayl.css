@@ -129,4 +129,9 @@ p{
     .intro h1 {
         width: 85%;
     }
+
+    header .contaner{
+        justify-content: center;
+        text-align: center;
+    }
 }
