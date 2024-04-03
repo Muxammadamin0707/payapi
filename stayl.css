@@ -92,6 +92,52 @@ p{
     margin-top: 105px;
 }
 
+.implement .top{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.implement .top h2{
+    color: #36536B;
+}
+
+.implement .bottum{
+    display: flex;
+    text-align: center;
+    gap: 50px;
+}
+
+.implement .bottum h3{
+    color: #36536B;
+}
+
+footer{
+    background-color: #1B262F;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+footer ul a{
+    color: #a8a8a8;
+}
+
+footer ul{
+    display: flex;
+    gap: 30px;
+}
+
+footer div{
+    display: flex;
+    gap: 30px;
+}
+
+footer .contaner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media (max-width: 768px) {
     .intro .contaner {
         flex-direction: column-reverse;
@@ -114,10 +160,38 @@ p{
     .content{
         text-align: center;
     }
+
+    .implement .top{
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 @media (max-width: 600px) {
     header .contaner {
+        flex-direction: column;
+    }
+
+    .implement .top {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .implement .bottum{
+        flex-direction: column;
+    }
+
+    footer .contaner{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .li{
+        flex-direction: column;
+    }
+
+    footer .vov{
         flex-direction: column;
     }
 
@@ -128,6 +202,10 @@ p{
 
     .intro h1 {
         width: 85%;
+    }
+
+    .right img{
+        width: 120%;
     }
 
     header .contaner{
